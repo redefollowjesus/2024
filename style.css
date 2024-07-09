@@ -11,6 +11,11 @@
     src: url(Bebas.otf);
 }
 
+@font-face {
+    font-family: Bebas2;
+    src: url(Bebas5.ttf);
+}
+
 body{
     background: url(back.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -36,7 +41,7 @@ body{
 }
 
 .img1 {
-    background: url(serv2.png) no-repeat;
+    background: rgb(123,132,321) no-repeat;
     width: 50px;
     height: 100px;
     text-align: center;
@@ -56,7 +61,7 @@ body{
 }
 
 .link-bio a {
-    background: url(back2.gif) no-repeat;
+    background: rgb(17,61,108) no-repeat;
     color: rgb(255, 255, 255);
     padding: 15px;
     width: 250px;
@@ -73,8 +78,9 @@ body{
     background-color: rgb(92,254,254);
 }
 
-h2 {
-    color: rgb(35,207,95);
+.titulo3 {
+    text-align: center;
+    font-family: Bebas2;
 }
 
 .titulo2 {
